@@ -44,6 +44,22 @@
     #card4{
         border-bottom: 1px solid rgba(0, 0, 0, 0.16);
     }
+
+
+    #card5{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    }
+
+
+    #card4{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    }
+}
+
+
+#card5{
+    border-bottom: none;
+    /* border-right:none; */
 }
 
 
@@ -81,6 +97,47 @@
 
     .outer-container-2 {
         margin-left: 10%;
+    }
+
+
+    
+    #card1{
+        /* border-bottom: 1px solid rgba(0, 0, 0, 0.16); */
+        border-right:none;
+    }
+
+
+
+    #card2{
+        /* border-bottom: 1px solid rgba(0, 0, 0, 0.16); */
+        border-right:none;
+    }
+
+
+
+
+
+    #card3{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+        border-right:none;
+    }
+
+
+    #card4{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+        border-right:none;
+    }
+
+
+    #card5{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+        border-right:none;
+    }
+
+
+    #card4{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+        border-right:none;
     }
 
 }
