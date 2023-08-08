@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d1fe59ecaa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="card.css">
+<link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+
+</head>
+<body>
+    <div class="master-container">
+
+
+
+
+        <div class="section-top">
+            <div class="container">
+
+                <div class="banner-div fade-in">
+                  <div class="tagline"><h1>About Us</h1></div>
+                  <div class="image-div">
+                    <img src="./1691396448289.jpg" alt="">
+                  </div>
+            
+                </div>
+            
+                <div class="outer">
+                  <div class="inner-section1 fade-in">
+                    <h2>Our Mission</h2>
+                    <div class="div-p1">
+                      <p>Empowering lives through compassion and innovation. Bridging hearts to build a diverse and empathetic global community. Championing solutions to pressing challenges with integrity. United in purpose, we sow seeds of hope, nurturing dreams to create a brighter world for all. Our mission: inspiring meaningful change and spreading lasting positivity.</p>
+                    </div>
+            
+                    <div class="div-p2">
+                      <p>Empowering lives through compassion and innovation. Bridging hearts to build a diverse and empathetic global community. Championing solutions to pressing challenges with integrity. United in purpose, we sow seeds of hope, nurturing dreams to create a brighter world for all. Our mission: inspiring meaningful change and spreading lasting positivity.</p>
+                    </div>
+            
+                  </div>
+                  <div class="inner-section2 fade-in">
+                    <img src="./Daco_2079752.png" alt="Image" />
+                  </div>
+                </div>
+            
+              </div>
+        </div>
+
+
+        <div class="section-one">
+
+
+            <div class="outer-container">
+                <div class="inner-section"  id="card1">
+                    <div class="card">
+                        <div class="emoji-card"><img src="./laptop.png"  alt=""></div>
+        
+                        <div class="div-content">
+                            <p class="div-content-p1">Job-Posting</p>
+                            <p class="div-content-p2">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur sed.</p>
+                        </div>
+        
+                    </div>
+                </div>
+        
+        
+                <div class="inner-section"  id="card2" >
+                    <div class="card">
+                        <div class="emoji-card"><img src="./laptop.png"  alt=""></div>
+        
+                        <div class="div-content">
+                            <p class="div-content-p1">Job-Application</p>
+                            <p class="div-content-p2">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur sed.</p>
+                        </div>
+        
+                    </div>
+                </div>
+        
+        
+                <div class="inner-section"  
+                id="card3"  >
+                    <div class="card">
+                        <div class="emoji-card"><img src="./laptop.png"  alt=""></div>
+        
+                        <div class="div-content">
+                            <p class="div-content-p1">CV - Upload</p>
+                            <p class="div-content-p2">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur sed.</p>
+                        </div>
+        
+                    </div>
+                </div>
+        
+        
+                <div class="inner-section"  
+                id="card4">
+                    <div class="card">
+                        <div class="emoji-card"><img src="./laptop.png"  alt=""></div>
+        
+                        <div class="div-content">
+                            <p class="div-content-p1">Profiles</p>
+                            <p class="div-content-p2">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur sed.</p>
+                        </div>
+        
+                    </div>
+                </div>
+        
+        
+                <div class="inner-section"   
+                id="card5">
+                    <div class="card">
+                        <div class="emoji-card"><img src="./laptop.png"  alt=""></div>
+        
+                        <div class="div-content">
+                            <p class="div-content-p1">Industry Search</p>
+                            <p class="div-content-p2">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur sed.</p>
+                        </div>
+        
+                    </div>
+                </div>
+        
+        
+        
+                <div class="inner-section "  
+                id="card6" >
+                    <div class="card">
+                        <div class="emoji-card"><img src="./laptop.png"  alt=""></div>
+        
+                        <div class="div-content">
+                            <p class="div-content-p1">Find Jobs</p>
+                            <p class="div-content-p2">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  Lorem ipsum dolor sit amet consectetur adipisicing elit. tenetur sed.</p>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <!-- Repeat the inner-section div for more cards -->
+            </div>
+
+        </div>
+
+        <div class="section-two">
+
+            <div class="outer-container-2">
+                <div class="inner-section-2">
+                    <div class="emoji"> <i class="fa-solid fa-user-tie  " ></i>  <p>Candidates</p>  </div>
+                    <div class="counter" id="counter1">0</div>
+                    
+                </div>
+                <div class="inner-section-2">
+                    <div class="emoji"><i class="fa-regular fa-file " ></i> <p>Application</p></div>
+                    <div class="counter" id="counter2">0</div>
+                </div>
+                <div class="inner-section-2">
+                    <div class="emoji"><i class="fa-solid fa-briefcase"></i> <p>Job Posted</p></div>
+                    <div class="counter" id="counter3">0</div>
+                </div>
+                <div class="inner-section-2">
+                    <div class="emoji"><i class="fa-regular fa-handshake"></i> <p>Employed</p></div>
+                    <div class="counter" id="counter4">0</div>
+                </div>
+            </div>
+        
+            <script>
+                // Function to update the counter value over time
+                function updateCounter(counterElement, targetValue) {
+                    let current = 0;
+                    const step = 50; // Adjust the step value to control the counter speed (lower value means faster animation)
+        
+                    function update() {
+                        if (current <= targetValue) {
+                            counterElement.textContent = current;
+                            current += step;
+                            requestAnimationFrame(update);
+                        } else {
+                            counterElement.textContent = targetValue;
+                        }
+                    }
+        
+                    update();
+                }
+        
+                // Start the counter animations for each section
+                const counters = document.querySelectorAll('.counter');
+                updateCounter(counters[0], 2000);
+                updateCounter(counters[1], 700);
+                updateCounter(counters[2], 2010);
+                updateCounter(counters[3], 450);
+            </script>
+        </div>
+
+        <!-- master -->
+            </div>
+        <!-- master -->
+    
+</body>
+</html>

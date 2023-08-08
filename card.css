@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.outer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.inner-section {
+    flex-basis: 23%;
+    /* margin: 10px; */
+    background-color: #fff;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* border-radius: 8px; */
+    overflow: hidden;
+    /* border-bottom: 1px solid black; */
+    transition: 0.3s ease-in-out;
+    border-right: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+
+.inner-section:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card {
+    padding: 20px;
+    /* text-align: center; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card p {
+    margin: 0;
+    padding: 5px;
+    color: #333;
+}
+
+
+#card1 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+
+#card2 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+} 
+#card3 {
+    border-right: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+
+#card6 {
+    border-right: none;
+}
+
+
+.emoji-card {
+    color: #555;
+    font-size: 50px;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    width: 20%;
+}
+
+
+
+.emoji-card img{
+height: 80px;
+margin-top: 20px;
+}
+
+/* h1 {
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 10px;
+} */
+
+.div-content {
+    color: #555;
+    /* margin-bottom: 10px; */
+    /* font-weight: 600; */
+    width: 100%;
+    /* background-color: brown; */
+}
+
+
+ .div-content-p1{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+ }
+
+
+ .div-content-p2{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+ }
+
+
+
+ .emoji-card i{
+    color: gold;
+ }
+
+/* Media queries for responsive design */
+
+/* For screens with width 1200px or larger, display four cards in one line */
+@media screen and (min-width: 1200px) {
+    .inner-section {
+        flex-basis: 30%;
+    }
+}
+
+/* For screens with width 768px or larger, display two cards in one line */
+@media screen and (max-width: 1199px) {
+    .inner-section {
+        flex-basis: 48%;
+    }
+}
+
+/* For screens with width 767px or smaller, display one card per line */
+@media screen and (max-width: 767px) {
+    .inner-section {
+        flex-basis: 100%;
+    }
+}
