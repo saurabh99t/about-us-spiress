@@ -1,5 +1,13 @@
 @media (max-width: 1200px) {
-    
+    #card3{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+        border-right: 1px solid rgba(0, 0, 0, 0.16);
+    }
+
+
+    #card4{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    }
 }
 
 
@@ -13,7 +21,29 @@
 
 
 @media (max-width: 800px) {
-    
+    .card p{
+        margin-left: 15px;
+    }
+
+
+    .inner-section-2 {
+        gap: 2px;
+    }
+
+
+    .emoji i {
+        font-size: 55px;
+    }
+
+    #card3{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+        border-right: 1px solid rgba(0, 0, 0, 0.16);
+    }
+
+
+    #card4{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    }
 }
 
 
@@ -36,6 +66,23 @@
         flex-direction: column;
         height: auto;
     }
+
+
+    .emoji-card {
+        width: 30%;
+    }
+
+
+    .outer-container-2 {
+        justify-content: center;
+        padding-top: 40px;
+    }
+
+
+    .outer-container-2 {
+        margin-left: 10%;
+    }
+
 }
 
 

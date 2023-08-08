@@ -6,6 +6,11 @@ body {
   box-sizing: border-box;
 }
 
+
+
+.master-container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .container {
   /* max-width: 1200px; */
   margin: 0 auto;
@@ -186,7 +191,7 @@ width: 100vw;
             justify-content: space-around;
             /* background-color: lightgray; */
             padding: 20px;
-            height: 40vh;
+            /* height: 40vh; */
         }
         
         /* Styling for the inner sections */
@@ -209,7 +214,7 @@ width: 100vw;
         
         /* Styling for the emojis */
         .emoji i {
-            font-size:70px;
+            font-size:55px;
             color: orangered;
             
         }
